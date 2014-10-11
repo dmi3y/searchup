@@ -12,7 +12,7 @@ var
     path;
 
 function checkPath(path) {
-    
+
     if ( path ) {
 
         console.log('File was found at: ' + path);
@@ -23,7 +23,7 @@ function checkPath(path) {
 }
 
 up.search('file.txt', function(path) {
-    
+
     checkPath(path);
 });
 
@@ -31,4 +31,4 @@ path = up.searchSync('file.txt');
 checkPath(path);
 
 ```
-Use enter parameter as filename a `string`, the output is full resolved path as a `string` or null if nothing was found.
+Enter parameter the filename `string`, the output is full resolved path as a `string` or null if nothing was found.
