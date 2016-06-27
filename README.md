@@ -1,4 +1,4 @@
-# searchup
+# searchup [![Build Status](https://travis-ci.org/dmi3y/searchup.svg?branch=master)](https://travis-ci.org/dmi3y/searchup)
 
 >Searching file from current working directory up until root or user home directory.
 
