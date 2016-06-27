@@ -1,12 +1,13 @@
 'use strict';
 
 var up = require('../src/index.js'),
-    cwd = process.cwd();
+    cwd = process.cwd(),
+    path = require('path');
 
 module.exports = {
     'setUp': function(cb) {
 
-        process.chdir(cwd + '/test/subdir/subsubdir/');
+        process.chdir(path.join(cwd, '/test/subdir/subsubdir/'));
         cb();
     },
     'tearDown': function(cb) {
