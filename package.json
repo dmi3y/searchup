@@ -8,6 +8,9 @@
     "name": "Dmitry",
     "email": "lapshukov@gmail.com"
   },
+  "scripts": {
+    "test": "gulp test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dmi3y/searchup"
